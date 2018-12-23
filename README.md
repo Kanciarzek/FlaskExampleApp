@@ -2,7 +2,7 @@
 
 Przykładowa aplikacja we Flasku
 
-##Uruchamianie
+## Uruchamianie
 Wszystkie mouduły potrzebne do uruchomienia aplikacja znajdują się w pliku requirements.txt.
 ```
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ flask run -p 80
 ```
 W przypadku, gdy uruchamiamy projekt za pomocą PyCharm, nie musimy się przejmować zmiennymi środowiskowymi itp.
 
-##Inicjalizacja bazy danych
+## Inicjalizacja bazy danych
 Projekt korzysta z bazy SQLite - jest to baza plikowa. Do utworzenia pliku przechowującego tabelę wystarczy wywołać (musimy mieć zadeklarowaną zmienną FLASK_APP!):
 ```
 flask init-db
@@ -46,7 +46,7 @@ gdy przeciągniemy tam plik "flask.sqlite" i zainstalujemy sterownik, naszym ocz
 Na wykładzie do wysyłania zapytań wykorzystujących REST api wykorzystałem program [Postman](https://www.getpostman.com/).
 ![](screen.png)
 
-##Testowanie
+## Testowanie
 Przykładowe testy znajdują się w pliku [test_flask.py](test_flask.py). Można je uruchomić za pomocą:
 ```
 pytest
