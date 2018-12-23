@@ -43,7 +43,9 @@ możemy podejrzeć naszą bazę danych bezpośrednio z naszego IDE - po prawej s
 gdy przeciągniemy tam plik "flask.sqlite" i zainstalujemy sterownik, naszym oczom ukaże się:
 
 <img height="300" src="dcScreen.png">
+
 ## Wysyłanie zapytań
+
 Na wykładzie do wysyłania zapytań wykorzystujących REST api wykorzystałem program [Postman](https://www.getpostman.com/).
 ![](screen.png)
 
