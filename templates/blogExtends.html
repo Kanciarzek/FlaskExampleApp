@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+Posts: {{ posts|length }}
+<table>
+{% for post in posts %}
+<tr><th>{{ post['author'] }} {{ post['title'] }}</th></tr>
+    <tr><th> {{ post['body'] }}</th></tr>
+{% endfor %}
+</table>
+{% endblock %}

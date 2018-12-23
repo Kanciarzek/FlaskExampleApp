@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<title>My blog</title>
+<body>
+Posts: {{ posts|length }}
+<table>
+{% for post in posts %}
+<tr><th>{{ post['author'] }} {{ post['title'] }}</th></tr>
+    <tr><th> {{ post['body'] }}</th></tr>
+{% endfor %}
+</table>
+</body>
+</html>
