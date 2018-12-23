@@ -41,8 +41,8 @@ Powstanie plik flask.sqlite przechowujący naszą tabelę.
 W wypadku, gdy mamy PyCharm w wersji Professional (dostępne dla studentów pod tym [linkiem](https://www.jetbrains.com/student/)), 
 możemy podejrzeć naszą bazę danych bezpośrednio z naszego IDE - po prawej stronie znajduje się zakładka Database, 
 gdy przeciągniemy tam plik "flask.sqlite" i zainstalujemy sterownik, naszym oczom ukaże się:
-![](dcScreen.png)
-##Wysyłanie zapytań
+<img height="300" src="dcScreen.png">
+## Wysyłanie zapytań
 Na wykładzie do wysyłania zapytań wykorzystujących REST api wykorzystałem program [Postman](https://www.getpostman.com/).
 ![](screen.png)
 
